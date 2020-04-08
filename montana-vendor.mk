@@ -443,6 +443,89 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgproc-jni.so \
     vendor/motorola/montana/proprietary/vendor/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgprocservice.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_video_full.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_video_full.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_video_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_4k_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_video_3A.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_common.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_liveshot.so \
@@ -450,38 +533,197 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_video.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_default_video.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_postproc.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_video_4k.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_common.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_video.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_common.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_postproc.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_video_4k.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov16860_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video_full.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_video_full.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video_3a.so \
     vendor/motorola/montana/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
     vendor/motorola/montana/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
     vendor/motorola/montana/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
@@ -624,8 +866,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_bear.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_mono.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_mono.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
@@ -633,6 +882,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_eeprom.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_rumba_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
